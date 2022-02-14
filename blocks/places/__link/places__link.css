@@ -3,3 +3,9 @@
   line-height: 1.22;
   color: #FFFFFF;
 }
+
+@media screen and (max-width:767px) {
+  .places__link {
+    padding-left: 16px;
+  }
+}

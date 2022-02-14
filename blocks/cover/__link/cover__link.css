@@ -1,5 +1,5 @@
 .cover__link {
-  background-image: url(../../../images/cover/cover-trains.jpg);
+  background-image: linear-gradient(rgba(42, 44, 47, 0.2), rgba(42, 44, 47, 0.2)), url(../../../images/cover/cover-trains.jpg);
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 .cover__link:hover {
-  background-image: linear-gradient(to bottom, black 0%, transparent 100%), url(../../../images/cover/cover-trains.jpg);
+  background-image: linear-gradient(rgba(42, 44, 47, 0.7), rgba(42, 44, 47, 0.7)), url(../../../images/cover/cover-trains.jpg);
 }
 
 @media screen and (max-width:1279px) {
